@@ -1,0 +1,9 @@
+# Using spring-ai-starter-mcp-server-webmvc
+spring:
+  ai:
+    mcp:
+      server:
+        name: current-time-mcp-server
+        version: 1.0.0
+        type: SYNC
+        sse-message-endpoint: /sse
